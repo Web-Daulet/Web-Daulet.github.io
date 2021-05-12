@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavash Center</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__top">
+                    <div class="header__logo">
+                        <a href="/">
+                            <picture>
+                                <source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.png" alt="LC">
+                            </picture>
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <a href="/" class="header__nav-link">Главная</a>
+                        <a href="#about" class="header__nav-link">О нас</a>
+                        <a href="#menu" class="header__nav-link">Меню</a>
+                        <a href="#address" class="header__nav-link">Адрес</a>
+                        <div class="header__social-wrapper">
+                            <div class="header__social">
+                                <a href="#" class="header__social-link header__nav-link">
+                                    <picture>
+                                        <source srcset="./img/facebook.svg" type="image/webp">
+                                        <img src="./img/facebook.svg" alt="">
+                                    </picture>
+                                </a>
+                                <a href="#" class="header__social-link header__nav-link">
+                                    <picture>
+                                        <source srcset="./img/vk.svg" type="image/webp">
+                                        <img src="./img/vk.svg" alt="">
+                                    </picture>
+                                </a>
+                                <a href="#" class="header__social-link header__nav-link">
+                                    <picture>
+                                        <source srcset="./img/instagram.svg" type="image/webp">
+                                        <img src="./img/instagram.svg" alt="">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="header__contacts">
+                        <a href="tel:+77783337070" class="header__contacts-link">+7 (778) 333 70-70</a>
+                        <a href="tel:+77753337070" class="header__contacts-link">+7 (775) 333 70-70</a>
+                    </div>
+                    <div class="burger">
+                        <div class="burger__line"></div>
+                        <div class="burger__line"></div>
+                        <div class="burger__line"></div>
+                    </div>
+                </div>
+                <div class="header__content-wrapper">
+                    <div class="header__content">
+                        <div class="header__timetable">
+                            <span>c 09:00 до 23:00, без выходных</span>
+                        </div>
+                        <div class="header__inner">
+                            <h1 class="header__inner-title">Закажите еду, не выходя из дома</h1>
+                            <h2 class="header__inner-subtitle">Закажите нашу еду — через приложение Glovo.</h2>
+                            <div class="header__inner-btns">
+                                <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                    class="btn btn--active">Сделать заказ</a>
+                                <a href="#menu" class="btn">Меню</a>
+                            </div>
+                        </div>
+                        <div class="header__social">
+                            <a href="#" class="header__social-link">
+                                <picture>
+                                    <source srcset="./img/facebook.svg" type="image/webp">
+                                    <img src="./img/facebook.svg" alt="">
+                                </picture>
+                            </a>
+                            <a href="#" class="header__social-link">
+                                <picture>
+                                    <source srcset="./img/vk.svg" type="image/webp"><img src="./img/vk.svg" alt="">
+                                </picture>
+                            </a>
+                            <a href="#" class="header__social-link">
+                                <picture>
+                                    <source srcset="./img/instagram.svg" type="image/webp">
+                                    <img src="./img/instagram.svg" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__left">
+                        <h2 class="about__title">О нас</h2>
+                        <p class="about__text">Lavash Center — это сети кафе быстрого питания номер один в Шымкенте.
+                            Вкусно, просто, доступно.</p>
+                    </div>
+                    <div class="about__right">
+                        <picture>
+                            <source srcset="./img/about.webp" type="image/webp"><img src="./img/about.jpg" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2 class="menu__title">Меню</h2>
+                <div class="menu__block">
+                    <ul class="menu__top">
+                        <li class="menu__top-headers active">Хит Продаж</li>
+                        <li class="menu__top-headers">Fast Food</li>
+                        <li class="menu__top-headers">Бургеры</li>
+                        <li class="menu__top-headers">Снеки</li>
+                    </ul>
+                    <div id="tab__slider-1" class="menu__slider active swiper-container">
+                        <div class="menu__item-wrapper swiper-wrapper">
+                            <div class="menu__items swiper-slide">
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp">
+                                            <img src="./img/menu-item1.png" alt="Image of Item">
+                                        </picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item2.webp" type="image/webp"><img
+                                                src="./img/menu-item2.jpg" alt="Image of Item">
+                                        </picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div id="tab__slider-2" class="menu__slider swiper-container">
+                        <!-- swiper-container -->
+
+                        <div class="menu__item-wrapper swiper-wrapper">
+                            <!--  swiper-wrapper -->
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item2.webp" type="image/webp"><img
+                                                src="./img/menu-item2.jpg" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div id="tab__slider-3" class="menu__slider swiper-container">
+                        <!-- swiper-container -->
+
+                        <div class="menu__item-wrapper swiper-wrapper">
+                            <!--  swiper-wrapper -->
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item2.webp" type="image/webp"><img
+                                                src="./img/menu-item2.jpg" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div id="tab__slider-4" class="menu__slider swiper-container">
+                        <!-- swiper-container -->
+
+                        <div class="menu__item-wrapper swiper-wrapper">
+                            <!--  swiper-wrapper -->
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item2.webp" type="image/webp"><img
+                                                src="./img/menu-item2.jpg" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                            <div class="menu__items swiper-slide">
+                                <!--  swiper-slide -->
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                                <div class="menu__item">
+                                    <div class="menu__item-img">
+                                        <picture>
+                                            <source srcset="./img/menu-item1.webp" type="image/webp"><img
+                                                src="./img/menu-item1.png" alt="Image of Item"></picture>
+                                    </div>
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-title">
+                                            <h3 class="menu__item-name">Boxmaster</h3>
+                                            <h3 class="menu__item-name">Боксмастер</h3>
+                                        </div>
+                                        <div class="menu__item-price">690 тг.</div>
+                                    </div>
+                                    <a href="https://glovoapp.com/ru/cit/store/lavash-center-cit/"
+                                        class="menu__item-link">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="address" id="address">
+            <div class="container">
+                <div class="address__inner">
+                    <div class="address__content">
+                        <h2 class="address__title">Адрес</h2>
+                        <div class="address__block">
+                            <div class="address__item">
+                                <h3 class="address__item-title">Север</h3>
+                                <p class="address__item-content">Микрорайон Север, 9/1</p>
+                            </div>
+                            <div class="address__item">
+                                <h3 class="address__item-title">Кунаева</h3>
+                                <p class="address__item-content">Проспект Кунаева, 21/1</p>
+                            </div>
+                            <div class="address__item">
+                                <h3 class="address__item-title">Тауке Хана</h3>
+                                <p class="address__item-content">Проспект Тауке Хана, 103</p>
+                            </div>
+                            <div class="address__item">
+                                <h3 class="address__item-title">Янги Шахар</h3>
+                                <p class="address__item-content">Тамерланское шоссе, 19/17</p>
+                            </div>
+                            <div class="address__item">
+                                <h3 class="address__item-title">Площадь</h3>
+                                <p class="address__item-content">Проспект Бауыржана Момышулы, 3</p>
+                            </div>
+                            <div class="address__item">
+                                <h3 class="address__item-title">Акация</h3>
+                                <p class="address__item-content">Аскарова, 22</p>
+                            </div>
+                            <div class="address__item">
+                                <h3 class="address__item-title">Колос</h3>
+                                <p class="address__item-content">Проспект Республики, 35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address__map">
+                        <iframe id="map_897239075" frameborder="0" width="100%" height="538px"
+                            sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+                        <script type="text/javascript">
+                            (function (e, t) {
+                                var r = document.getElementById(e);
+                                r.contentWindow.document.open(), r.contentWindow.document.write(atob(t)), r
+                                    .contentWindow.document.close()
+                            })("map_897239075",
+                                "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUsdCl7dmFyIHI9SlNPTi5wYXJzZShlKSxuPUpTT04ucGFyc2UodCk7ZnVuY3Rpb24gYShlKXtyZXR1cm4gZGVjb2RlVVJJQ29tcG9uZW50KGF0b2IoZSkuc3BsaXQoIiIpLm1hcChmdW5jdGlvbihlKXtyZXR1cm4iJSIrKCIwMCIrZS5jaGFyQ29kZUF0KDApLnRvU3RyaW5nKDE2KSkuc2xpY2UoLTIpfSkuam9pbigiIikpfURHLnRoZW4oZnVuY3Rpb24oKXt2YXIgZT1ERy5tYXAoIm1hcCIse2NlbnRlcjpbbi5sYXQsbi5sb25dLHpvb206bi56b29tfSk7REcuZ2VvSlNPTihyLHtzdHlsZTpmdW5jdGlvbihlKXt2YXIgdCxyLG4sYSxvO3JldHVybntmaWxsQ29sb3I6bnVsbD09PSh0PWUpfHx2b2lkIDA9PT10P3ZvaWQgMDp0LnByb3BlcnRpZXMuZmlsbENvbG9yLGZpbGxPcGFjaXR5Om51bGw9PT0ocj1lKXx8dm9pZCAwPT09cj92b2lkIDA6ci5wcm9wZXJ0aWVzLmZpbGxPcGFjaXR5LGNvbG9yOm51bGw9PT0obj1lKXx8dm9pZCAwPT09bj92b2lkIDA6bi5wcm9wZXJ0aWVzLnN0cm9rZUNvbG9yLHdlaWdodDpudWxsPT09KGE9ZSl8fHZvaWQgMD09PWE/dm9pZCAwOmEucHJvcGVydGllcy5zdHJva2VXaWR0aCxvcGFjaXR5Om51bGw9PT0obz1lKXx8dm9pZCAwPT09bz92b2lkIDA6by5wcm9wZXJ0aWVzLnN0cm9rZU9wYWNpdHl9fSxwb2ludFRvTGF5ZXI6ZnVuY3Rpb24oZSx0KXtyZXR1cm4icmFkaXVzImluIGUucHJvcGVydGllcz9ERy5jaXJjbGUodCxlLnByb3BlcnRpZXMucmFkaXVzKTpERy5tYXJrZXIodCx7aWNvbjpmdW5jdGlvbihlKXtyZXR1cm4gREcuZGl2SWNvbih7aHRtbDoiPGRpdiBjbGFzcz0nYnVsbGV0LW1hcmtlcicgc3R5bGU9J2JvcmRlci1jb2xvcjogIitlKyI7Jz48L2Rpdj4iLGNsYXNzTmFtZToib3ZlcnJpZGUtZGVmYXVsdCIsaWNvblNpemU6WzIwLDIwXSxpY29uQW5jaG9yOlsxMCwxMF19KX0oZS5wcm9wZXJ0aWVzLmNvbG9yKX0pfSxvbkVhY2hGZWF0dXJlOmZ1bmN0aW9uKGUsdCl7ZS5wcm9wZXJ0aWVzLmRlc2NyaXB0aW9uJiZ0LmJpbmRQb3B1cChhKGUucHJvcGVydGllcy5kZXNjcmlwdGlvbikse2Nsb3NlQnV0dG9uOiEwLGNsb3NlT25Fc2NhcGVLZXk6ITB9KSxlLnByb3BlcnRpZXMudGl0bGUmJnQuYmluZFRvb2x0aXAoYShlLnByb3BlcnRpZXMudGl0bGUpLHtwZXJtYW5lbnQ6ITAsb3BhY2l0eToxLGNsYXNzTmFtZToicGVybWFuZW50LXRvb2x0aXAifSl9fSkuYWRkVG8oZSl9KX0pKCdbeyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZmZiYzJlIiwidGl0bGUiOiIiLCJkZXNjcmlwdGlvbiI6IlBIQStURU1zSU5HQjBMWFJndEdNSU5DNjBMRFJoTkMxSU5DeDBZdlJnZEdDMFlEUXZ0Q3owTDRnMEwvUXVOR0MwTERRdmRDNDBZODhMM0ErIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls2OS41OTk0MDQsNDIuMzIzODhdfSwiaWQiOjY4NX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZmZiYzJlIiwidGl0bGUiOiIiLCJkZXNjcmlwdGlvbiI6IlBIQStURU1zSU5HQjBMWFJndEdNSU5DNjBMRFJoTkMxSU5DeDBZdlJnZEdDMFlEUXZ0Q3owTDRnMEwvUXVOR0MwTERRdmRDNDBZODhMM0ErIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls2OS42MjA5NzIsNDIuMzEzMDAyXX0sImlkIjo2OTh9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiI2ZmYmMyZSIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiJQSEErVEVNc0lOR0IwTFhSZ3RHTUlOQzYwTERSaE5DMUlOQ3gwWXZSZ2RHQzBZRFF2dEN6MEw0ZzBML1F1TkdDMExEUXZkQzQwWTg4TDNBKyIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbNjkuNjQwNzE1LDQyLjMzOTA3OV19LCJpZCI6NzEwfSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJjb2xvciI6IiNmZmJjMmUiLCJ0aXRsZSI6IiIsImRlc2NyaXB0aW9uIjoiUEhBK1RFTXNJTkdCMExYUmd0R01JTkM2MExEUmhOQzFJTkN4MFl2UmdkR0MwWURRdnRDejBMNGcwTC9RdU5HQzBMRFF2ZEM0MFk4OEwzQSsiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzY5LjU4ODk0Myw0Mi4zMTczNDFdfSwiaWQiOjkwOH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZmZiYzJlIiwidGl0bGUiOiIiLCJkZXNjcmlwdGlvbiI6IlBIQStURU1zSU5HQjBMWFJndEdNSU5DNjBMRFJoTkMxSU5DeDBZdlJnZEdDMFlEUXZ0Q3owTDRnMEwvUXVOR0MwTERRdmRDNDBZODhMM0ErIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls2OS41NzYzOTYsNDIuMzI2NTNdfSwiaWQiOjkxMn0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZmZiYzJlIiwidGl0bGUiOiIiLCJkZXNjcmlwdGlvbiI6IlBIQStURU1zSU5HQjBMWFJndEdNSU5DNjBMRFJoTkMxSU5DeDBZdlJnZEdDMFlEUXZ0Q3owTDRnMEwvUXVOR0MwTERRdmRDNDBZODhMM0ErIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls2OS41Nzk4ODYsNDIuMzE4NDcxXX0sImlkIjo5MTZ9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiI2ZmYmMyZSIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiJQSEErVEVNc0lOR0IwTFhSZ3RHTUlOQzYwTERSaE5DMUlOQ3gwWXZSZ2RHQzBZRFF2dEN6MEw0ZzBML1F1TkdDMExEUXZkQzQwWTg4TDNBKyIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbNjkuNTc2OTQ2LDQyLjMwNzcyN119LCJpZCI6OTIwfV0nLCd7ImxhdCI6NDIuMzMzNjc2Nzk1MzI3OTQ2LCJsb24iOjY5LjYxNTcyNjQ3MDk0NzI4LCJ6b29tIjoxM30nKTwvc2NyaXB0PjxzY3JpcHQgYXN5bmM9IiIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHBzOi8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0YWcvanM/aWQ9VUEtMTU4ODY2MTY4LTEiPjwvc2NyaXB0PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4oZnVuY3Rpb24oZSl7ZnVuY3Rpb24gdCgpe2RhdGFMYXllci5wdXNoKGFyZ3VtZW50cyl9d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXSx0KCJqcyIsbmV3IERhdGUpLHQoImNvbmZpZyIsZSksd2luZG93Lmd0YWc9dH0pKCdVQS0xNTg4NjYxNjgtMScpPC9zY3JpcHQ+PC9ib2R5Pg=="
+                            )
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <div class="footer__info-title">Режим работы</div>
+                    <div class="footer__info-text">с 09:00 до 23:00, без выходных!</div>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__info-title">Наши контакты</div>
+                    <div class="footer__info-text">
+                        <a href="#" class="footer__info-link">+7 (778) 333 70-70</a>
+                        <a href="#" class="footer__info-link">+7 (778) 333 70-70</a>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__info-title">Мы в соц.сетях</div>
+                    <div class="footer__social-wrapper">
+                        <a href="#" class="footer__social-link">
+                            <svg viewBox="0 0 61 60" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M59.8861 17.6402C59.7455 14.4522 59.2298 12.2604 58.4912 10.3612C57.7292 8.34531 56.5568 6.54045 55.0209 5.04006C53.5202 3.51632 51.7031 2.33231 49.7102 1.58235C47.7996 0.843826 45.6189 0.328282 42.4303 0.18772C39.2178 0.0352548 38.198 0 30.0503 0C21.9025 0 20.8827 0.0352548 17.6822 0.175816C14.4935 0.316377 12.3013 0.832379 10.4023 1.57044C8.38548 2.33231 6.58027 3.50442 5.0796 5.04006C3.55557 6.54045 2.37179 8.35722 1.62122 10.3498C0.882561 12.2604 0.366918 14.4403 0.22633 17.6283C0.0738357 20.8402 0.0385742 21.8598 0.0385742 30.006C0.0385742 38.1521 0.0738357 39.1717 0.214424 42.3717C0.355012 45.5597 0.871112 47.7515 1.60977 49.6507C2.37179 51.6666 3.55557 53.4715 5.0796 54.9718C6.58027 56.4956 8.39739 57.6796 10.3903 58.4296C12.3013 59.1681 14.4816 59.6836 17.6707 59.8242C20.8708 59.9652 21.8911 60 30.0388 60C38.1865 60 39.2063 59.9652 42.4069 59.8242C45.5955 59.6836 47.7877 59.1681 49.6868 58.4296C53.7199 56.8706 56.9085 53.6825 58.4678 49.6507C59.206 47.74 59.7221 45.5597 59.8627 42.3717C60.0033 39.1717 60.0386 38.1521 60.0386 30.006C60.0386 21.8598 60.0267 20.8402 59.8861 17.6402ZM54.4819 42.1373C54.3528 45.0675 53.8605 46.6499 53.4502 47.7048C52.4418 50.3187 50.3668 52.3932 47.7525 53.4014C46.6974 53.8116 45.1033 54.3038 42.1839 54.4325C39.0186 54.5735 38.0693 54.6083 30.0622 54.6083C22.055 54.6083 21.0938 54.5735 17.94 54.4325C15.0092 54.3038 13.4265 53.8116 12.3714 53.4014C11.0704 52.9207 9.88616 52.1588 8.92494 51.1625C7.92845 50.1896 7.16644 49.0174 6.6856 47.7167C6.27528 46.6618 5.783 45.0675 5.65432 42.1492C5.51327 38.9845 5.47847 38.0349 5.47847 30.0293C5.47847 22.0237 5.51327 21.0627 5.65432 17.9099C5.783 14.9796 6.27528 13.3973 6.6856 12.3424C7.16644 11.0412 7.92845 9.85761 8.93684 8.89611C9.90951 7.89982 11.0818 7.13795 12.3833 6.65766C13.4384 6.24742 15.033 5.75523 17.9519 5.62612C21.1172 5.48555 22.067 5.4503 30.0736 5.4503C38.0926 5.4503 39.0419 5.48555 42.1958 5.62612C45.1266 5.75523 46.7093 6.24742 47.7644 6.65766C49.0654 7.13795 50.2496 7.89982 51.2108 8.89611C52.2073 9.86905 52.9693 11.0412 53.4502 12.3424C53.8605 13.3973 54.3528 14.9911 54.4819 17.9099C54.6225 21.0746 54.6578 22.0237 54.6578 30.0293C54.6578 38.0349 54.6225 38.9726 54.4819 42.1373Z"
+                                    fill="#000" />
+                                <path
+                                    d="M30.0507 14.5927C21.5398 14.5927 14.6345 21.4963 14.6345 30.006C14.6345 38.5156 21.5398 45.4192 30.0507 45.4192C38.562 45.4192 45.4668 38.5156 45.4668 30.006C45.4668 21.4963 38.562 14.5927 30.0507 14.5927ZM30.0507 40.0041C24.5293 40.0041 20.0506 35.5268 20.0506 30.006C20.0506 24.4852 24.5293 20.0078 30.0507 20.0078C35.5725 20.0078 40.0508 24.4852 40.0508 30.006C40.0508 35.5268 35.5725 40.0041 30.0507 40.0041V40.0041Z"
+                                    fill="#000" />
+                                <path
+                                    d="M49.6757 13.9833C49.6757 15.9704 48.0642 17.5816 46.0763 17.5816C44.0888 17.5816 42.4773 15.9704 42.4773 13.9833C42.4773 11.9958 44.0888 10.385 46.0763 10.385C48.0642 10.385 49.6757 11.9958 49.6757 13.9833V13.9833Z"
+                                    fill="#000" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <svg id="vk" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m19.915 13.028c-.388-.49-.277-.708 0-1.146.005-.005 3.208-4.431 3.538-5.932l.002-.001c.164-.547 0-.949-.793-.949h-2.624c-.668 0-.976.345-1.141.731 0 0-1.336 3.198-3.226 5.271-.61.599-.892.791-1.225.791-.164 0-.419-.192-.419-.739v-5.105c0-.656-.187-.949-.74-.949h-4.126c-.419 0-.668.306-.668.591 0 .622.945.765 1.043 2.515v3.797c0 .832-.151.985-.486.985-.892 0-3.057-3.211-4.34-6.886-.259-.713-.512-1.001-1.185-1.001h-2.625c-.749 0-.9.345-.9.731 0 .682.892 4.073 4.148 8.553 2.17 3.058 5.226 4.715 8.006 4.715 1.671 0 1.875-.368 1.875-1.001 0-2.922-.151-3.198.686-3.198.388 0 1.056.192 2.616 1.667 1.783 1.749 2.076 2.532 3.074 2.532h2.624c.748 0 1.127-.368.909-1.094-.499-1.527-3.871-4.668-4.023-4.878z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <?xml version="1.0" encoding="iso-8859-1"?>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 155.139 155.139"
+                                style="enable-background:new 0 0 155.139 155.139;" xml:space="preserve">
+                                <g>
+                                    <path id="facebook" fill="#000"
+                                        d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184	c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452 v20.341H37.29v27.585h23.814v70.761H89.584z" />
+                                </g>
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">2011-2021 © LC — сети кафе быстрого питания.</div>
+        </div>
+    </footer>
+    <script src="./js/main.min.js"></script>
+</body>
+
+</html>
